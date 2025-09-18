@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Dulce Hogar</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🍞 Dulce Hogar</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio -->
+        <section id="inicio" class="seccion">
+            <h1>Bienvenidos a Panadería Dulce Hogar</h1>
+            <p>El sabor casero que alegra tus días. Elaboramos pan, pasteles y postres con amor y tradición.</p>
+            <img src="img/test.png" alt="Pan casero" class="imagen-principal">
+        </section>
+
+        <section id="productos" class="seccion">
+            <h2>Nuestros Productos</h2>
+            <div class="productos">
+                <div class="producto">
+                    <img src="img/pan1.jpg" alt="Pan integral">
+                    <h3>Pan Integral</h3>
+                    <p>Saludable, fresco y delicioso.</p>
+                </div>
+                <div class="producto">
+                    <img src="img/pan2.jpg" alt="Pastel de chocolate">
+                    <h3>Pastel de Chocolate</h3>
+                    <p>Suave, cremoso y perfecto para celebrar.</p>
+                </div>
+                <div class="producto">
+                    <img src="img/pan4.png" alt="Croissants">
+                    <h3>Croissants</h3>
+                    <p>Hechos a mano con mantequilla premium.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contacto" class="seccion">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Panadería Dulce Hogar. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
